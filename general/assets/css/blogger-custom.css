@@ -1,0 +1,266 @@
+/* 
+ * Estilos personalizados para Blogger
+ * Versión: 1.0
+ * Fecha: 26/02/2025
+ * 
+ * Este archivo contiene estilos CSS personalizados para mejorar
+ * la apariencia y funcionalidad de blogs en Blogger.
+ */
+
+/* ===== ESTILOS GENERALES ===== */
+
+/* Mejora la legibilidad del texto */
+.post-body {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333333;
+}
+
+/* Mejora los títulos */
+.post-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #34495e;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #3498db;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* ===== ELEMENTOS DE CONTENIDO ===== */
+
+/* Estilo para listas */
+.post-body ul, 
+.post-body ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.post-body li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para citas */
+blockquote {
+  border-left: 4px solid #3498db;
+  padding: 15px 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  font-style: italic;
+}
+
+/* Estilo para tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ===== IMÁGENES Y MULTIMEDIA ===== */
+
+/* Mejora la presentación de imágenes */
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 25px auto;
+  border-radius: 5px;
+}
+
+/* Pie de foto */
+.image-caption {
+  text-align: center;
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+/* ===== ELEMENTOS ESPECIALES ===== */
+
+/* Cajas de información */
+.info-box {
+  background-color: #e8f4fc;
+  border-left: 4px solid #3498db;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Cajas de advertencia */
+.warning-box {
+  background-color: #fff5e6;
+  border-left: 4px solid #e67e22;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Cajas de éxito/tip */
+.success-box {
+  background-color: #e8f8f5;
+  border-left: 4px solid #2ecc71;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 5px 5px 0;
+}
+
+/* ===== BOTONES Y LLAMADAS A LA ACCIÓN ===== */
+
+.cta-button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 25px;
+  margin: 20px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #2980b9;
+  text-decoration: none;
+}
+
+.cta-button.secondary {
+  background-color: #2ecc71;
+}
+
+.cta-button.secondary:hover {
+  background-color: #27ae60;
+}
+
+/* ===== SECCIÓN DE COMENTARIOS ===== */
+
+.comments {
+  margin-top: 40px;
+}
+
+.comments h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+@media (max-width: 768px) {
+  .post-body {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  
+  .post-title {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  .cta-button {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* ===== CLASES UTILITARIAS ===== */
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ===== PERSONALIZACIÓN DE GADGETS ===== */
+
+/* Mejora el widget de posts populares */
+.popular-posts ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.popular-posts li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Mejora el widget de etiquetas */
+.Label ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.Label li {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.Label a {
+  display: inline-block;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #555;
+}
+
+.Label a:hover {
+  background-color: #e6e6e6;
+  text-decoration: none;
+}
+
+/* ===== FIN DEL ARCHIVO ===== */

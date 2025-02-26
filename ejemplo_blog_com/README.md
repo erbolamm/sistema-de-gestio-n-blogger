@@ -1,6 +1,6 @@
-# Blog de Ejemplo (Blog Personal/Temático)
+# Blog de Ejemplo (Personal/General)
 
-Este directorio contiene todos los recursos relacionados con un blog personal o temático en Blogger. Utiliza esta estructura como plantilla para organizar tu propio blog.
+Este directorio contiene todos los recursos relacionados con un blog personal o general en Blogger. Utiliza esta estructura como plantilla para organizar tu propio blog personal.
 
 ## Estructura del Directorio
 
@@ -17,33 +17,38 @@ ejemplo_blog_com/
 
 - **URL**: [https://www.ejemplo-blog.com](https://www.ejemplo-blog.com)
 - **Plataforma**: Blogger
-- **Temática**: Blog personal/temático (lifestyle, viajes, tecnología, etc.)
+- **Temática**: Blog personal, estilo de vida, opinión
 - **Público objetivo**: [Define tu público objetivo]
-- **Monetización**: Google AdSense, afiliados, etc.
+- **Monetización**: Google AdSense, contenido patrocinado
 
 ## Directrices Específicas
 
 ### Contenido
 
-- Todos los artículos deben seguir la plantilla en `general/templates/entrada_blog.md`
-- Incluir al menos una imagen destacada por entrada
-- Extensión recomendada: 800-1500 palabras
+- Entradas de blog: Usar la plantilla en `general/templates/entrada_blog.md`
+- Longitud recomendada: 800-1500 palabras por entrada
+- Incluir al menos 2-3 imágenes por entrada
 - Mantener un tono personal pero profesional
-- Estructurar con subtítulos (H2, H3) cada 300-400 palabras
+- Categorizar adecuadamente cada entrada
+- Publicar con regularidad (mínimo 2 veces por semana)
 
 ### SEO
 
 - Palabras clave principales: [Lista tus palabras clave principales]
 - Seguir las directrices de optimización en `general/prompts/optimizar_para_seo.md`
-- Cada entrada debe tener al menos 2-3 enlaces internos a otras entradas relacionadas
-- Utilizar categorías y etiquetas de forma consistente
+- Utilizar títulos atractivos y descriptivos
+- Incluir metadescripciones personalizadas para cada entrada
+- Optimizar imágenes (nombres de archivo, atributos alt)
+- Enlazar a contenido relacionado dentro del blog
 
-### Mantenimiento
+### Estilo y Formato
 
-- Publicar al menos [X] artículos nuevos al mes
-- Actualizar entradas populares cada 6 meses
-- Responder a comentarios en un plazo máximo de 48 horas
-- Revisar enlaces rotos mensualmente con el script `verificar_enlaces.py`
+- Párrafos cortos (máximo 3-4 líneas)
+- Usar encabezados (H2, H3) para estructurar el contenido
+- Incluir listas y viñetas para mejorar la legibilidad
+- Destacar frases importantes en negrita o como citas
+- Mantener coherencia en el estilo de escritura
+- Revisar ortografía y gramática antes de publicar
 
 ## Planificación de Contenido
 
@@ -52,16 +57,21 @@ ejemplo_blog_com/
 2. [Categoría 2]
 3. [Categoría 3]
 4. [Categoría 4]
+5. [Categoría 5]
 
-### Ideas de Contenido
-- [Lista de ideas para artículos futuros]
-- [Temas recurrentes o series de contenido]
-- [Contenido estacional o para fechas especiales]
+### Tipos de Contenido
+- Artículos informativos
+- Guías y tutoriales
+- Reseñas y opiniones
+- Experiencias personales
+- Listas y recopilaciones
+- Entrevistas
 
 ### Calendario Editorial
-- Publicaciones nuevas: [Días de la semana]
-- Actualizaciones: [Frecuencia]
-- Contenido especial: [Fechas importantes]
+- Lunes: [Tipo de contenido]
+- Miércoles: [Tipo de contenido]
+- Viernes: [Tipo de contenido]
+- Contenido especial mensual: [Tema]
 
 ## Personalización de Blogger
 
@@ -69,32 +79,65 @@ ejemplo_blog_com/
 - Paleta de colores: [Detalles de colores]
 - Tipografía: [Fuentes utilizadas]
 - Logotipo: [Ubicación del archivo]
+- Favicon: [Ubicación del archivo]
 
 ### Gadgets Esenciales
-- Formulario de suscripción
+- Perfil del autor
+- Categorías/etiquetas
 - Entradas populares
-- Categorías
-- Búsqueda
+- Formulario de suscripción
 - Redes sociales
+- Búsqueda
 
 ## Proceso de Publicación
 
-1. Crear borrador siguiendo la plantilla
-2. Optimizar para SEO según las directrices
-3. Preparar y optimizar imágenes
-4. Revisar gramática y ortografía
-5. Programar publicación en Blogger
-6. Promocionar en redes sociales
+1. Investigar y planificar el tema
+2. Crear el primer borrador siguiendo la plantilla
+3. Revisar y editar el contenido
+4. Optimizar para SEO
+5. Seleccionar y preparar imágenes
+6. Programar publicación
+7. Promocionar en redes sociales
+
+## Promoción y Crecimiento
+
+### Redes Sociales
+- [Lista de redes sociales donde se promocionará el contenido]
+- Frecuencia de publicación en cada red
+- Tipo de contenido para cada plataforma
+
+### Estrategias de Crecimiento
+- Colaboraciones con otros bloggers
+- Participación en comunidades relacionadas
+- Comentar en blogs similares
+- Guest posting
+- Optimización continua de SEO
+
+## Monetización
+
+- Ubicación estratégica de anuncios AdSense
+- Política para contenido patrocinado
+- Posibles productos digitales
+- Programas de afiliados relevantes
+- Membresías o contenido premium (futuro)
+
+## Aspectos Legales
+
+- Aviso de privacidad
+- Política de cookies
+- Descargos de responsabilidad
+- Información sobre afiliados
+- Derechos de autor y atribuciones
 
 ## Recursos Útiles
 
-- [Documentación oficial de Blogger](https://support.google.com/blogger)
-- [Guía de estilo del blog]
-- [Banco de imágenes recomendado]
-- [Herramientas complementarias]
+- [Herramientas recomendadas]
+- [Bancos de imágenes]
+- [Plugins útiles para Blogger]
+- [Comunidades relevantes]
 
 ---
 
 Última actualización: 26 de febrero de 2025
 
-*Nota: Personaliza este README con la información específica de tu blog.*
+*Nota: Personaliza este README con la información específica de tu blog personal.*
